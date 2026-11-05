@@ -1,0 +1,22 @@
+# 忽略运行时产物与打包文件
+.browser-profile/
+.edge-lab-profile/
+__pycache__/
+*.pyc
+日志/
+*.log
+
+# 打包相关（体积大，走 Release 分发）
+chrome/
+python/
+*.zip
+*.7z
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 个人配置
+.env
+config.local.*
